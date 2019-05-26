@@ -48,7 +48,7 @@ public class FileUtil {
 		}
 		//文件排序数
 		if(base>=0){
-			path.append(base+order);
+			path.append("["+base+order+"]");
 		}
 		//是否保留原文件名
 		if(isContainSourceName){
